@@ -76,7 +76,7 @@ We use [project](http://project.org/) for versioning. For the versions available
 ## Authors
 
 * **Justin Zemlyansky** 
-* **America Lopez **
+* **America Lopez**
 * **Victor Godales**
 
 
