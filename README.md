@@ -61,6 +61,7 @@ Add additional notes about how to deploy this....
 * Raspberry Pi
 * Arduino Intel 101
 * Intel Edison
+* Android SDK 
 * [Intel XDK](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
 * [Firmata](https://maven.apache.org/) - Dependency Management for Arduino?
 
@@ -85,7 +86,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* 
-* Inspiration from *
-* 
+* Inspiration from
+* Inspiration from 
+* Inspiration from
 
