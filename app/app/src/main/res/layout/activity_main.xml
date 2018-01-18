@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.example.vic.fireapp2.MainActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+
+    <ImageView
+        android:id="@+id/logoView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/logo3copy"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp" />
+
+
+    <EditText
+        android:id="@+id/emailField"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logoView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/input_background"
+        android:ems="10"
+        android:hint="Email ..."
+        android:inputType="textEmailAddress"
+        android:padding="15dp" />
+
+
+    <EditText
+        android:id="@+id/passwordField"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/emailField"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/input_background"
+        android:ems="10"
+        android:hint="Password ..."
+        android:inputType="textPassword"
+        android:padding="15dp" />
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/passwordField"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+        android:background="@drawable/btn_background"
+        android:text="Sign In"
+        tools:textColor="@color/colorPrimary"
+        android:padding="20dp" />
+</RelativeLayout>
